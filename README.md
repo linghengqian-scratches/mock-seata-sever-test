@@ -1,6 +1,6 @@
 ## For https://github.com/apache/shardingsphere/issues/21347
 
-- Execute the following commands for comparison.
+- Execute the following commands for comparison in Ubuntu 22.04.
 ```shell
 sudo apt install unzip zip curl sed -y
 curl -s "https://get.sdkman.io" | bash
@@ -15,6 +15,7 @@ cd ./mock-seata-sever-test/
 cd ./mock-seata-v142/
 ./mvnw clean test
 
+cd ..
 cd ./mock-seata-v161/
 ./mvnw clean test
 ```

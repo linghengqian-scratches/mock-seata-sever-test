@@ -13,9 +13,9 @@ git clone git@github.com:linghengqian/mock-seata-sever-test.git
 cd ./mock-seata-sever-test/
 
 cd ./mock-seata-v142/
-./mvnw clean test
+mvn clean test
 
 cd ..
 cd ./mock-seata-v161/
-./mvnw clean test
+mvn clean test
 ```
